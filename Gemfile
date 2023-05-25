@@ -65,3 +65,4 @@ group :development do
 end
 
 gem 'friendly_id', '~> 5.4.0'
+gem 'byebug', '~> 9.0', '>= 9.0.5'
