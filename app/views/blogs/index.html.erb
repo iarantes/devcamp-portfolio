@@ -6,7 +6,9 @@
   <% @blogs.each do |blog| %>
     <%= render blog %>
     <p>
-      <%= link_to "Show this blog", blog %>
+      <%= link_to "Show", blog %>
+      <%= link_to "Edit", edit_blog_path(blog) %>
+      <%= link_to 'Delete Post', blog_path(blog), data: {turbo_method: :delete, turbo_confirm: 'Are you sure?'} %>
     </p>
   <% end %>
 </div>
