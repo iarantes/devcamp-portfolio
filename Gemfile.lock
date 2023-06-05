@@ -66,6 +66,7 @@ GEM
       i18n (>= 1.6, < 2)
       minitest (>= 5.1)
       tzinfo (~> 2.0)
+    arantes_view_tool (0.1.0)
     autoprefixer-rails (10.4.13.0)
       execjs (~> 2)
     bcrypt (3.1.18)
@@ -218,6 +219,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  arantes_view_tool (~> 0.1.0)
   bootsnap
   bootstrap (~> 5.3.0.alpha3)
   byebug (~> 9.0, >= 9.0.5)
