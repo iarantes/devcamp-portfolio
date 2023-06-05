@@ -71,3 +71,5 @@ gem 'devise', '~> 4.9', '>= 4.9.2'
 
 gem 'bootstrap', '~> 5.3.0.alpha3'
 gem 'arantes_view_tool', '~> 0.1.0'
+
+gem 'petergate', '~> 3.0'
