@@ -15,14 +15,13 @@
   </head>
 
   <body>
-    <%= login_helper %>
 
     <%= render "shared/application_nav" %>
     
     <%= yield %>
 
-    <%= copyright_generator %>
-    
+    <%= render "shared/application_footer" %>
+
     <%= source_helper("application") %>
   </body>
 </html>
