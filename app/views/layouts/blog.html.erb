@@ -18,18 +18,21 @@
     <%= render 'shared/blog_masthead' %>
 
     <div class="container">
-      <div class="row">    
+      <div class="row"> 
+    
         <%= login_helper %>
         
-        <%= yield %>
+        <div class="col-md-9">
+          <%= yield %>
+        </div>
 
-        <%= render "shared/nav", location: 'bottom' %>
+        <div class="col-md-3">
+          <%= render "shared/blog_sidebar", location: 'bottom' %>
+        </div>
 
-        <%= render "shared/blog_sidebar", location: 'bottom' %>
-      
       </div>
 
-      <%= render 'shared/blog_footer' %>
+      <%= render 'shared/blog_footer'%>
       <%= source_helper("blog") %>
     </div>
 
