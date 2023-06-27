@@ -71,5 +71,6 @@ gem 'devise', '~> 4.9', '>= 4.9.2'
 
 gem 'bootstrap', '~> 5.3.0.alpha3'
 gem 'arantes_view_tool', '~> 0.1.0'
-
 gem 'petergate', '~> 3.0'
+gem 'font-awesome-rails', '~> 4.7', '>= 4.7.0.8'
+gem 'kaminari', '~> 1.2', '>= 1.2.2'
