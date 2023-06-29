@@ -1,6 +1,6 @@
 <div class="album py-5 bg-light">
   <div class="container">
-    <div class="row sortable">
+    <div class="row <%= "sortable" if logged_in?(:site_admin) %>">
     
       <title>jQuery UI Sortable - Default functionality</title>
       <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
