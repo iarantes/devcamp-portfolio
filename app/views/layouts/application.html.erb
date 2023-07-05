@@ -18,9 +18,13 @@
 
     <%= render "shared/application_nav" %>
     
-    <%= yield %>
+    <div class="row">
+      <%= yield %>
+    </div>
 
-    <%= render "shared/application_footer" %>
+    <div class="master-footer container-fluid mt-5 pt-5 pb-4">
+      <%= render "shared/application_footer" %>
+    </div>
 
     <%= source_helper("application") %>
   </body>
