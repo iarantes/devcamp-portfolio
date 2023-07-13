@@ -7,4 +7,6 @@ import "controllers"
 //= require bootstrap-sprockets
 //= require jquery-ui
 //= require html.sortable.js
+//= require cocoon
+//= require portfolios.coffee
 //= require_tree .
