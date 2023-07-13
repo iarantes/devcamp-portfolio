@@ -8,5 +8,6 @@ import "controllers"
 //= require jquery-ui
 //= require html.sortable.js
 //= require cocoon
+//= require gritter
 //= require portfolios.coffee
 //= require_tree .

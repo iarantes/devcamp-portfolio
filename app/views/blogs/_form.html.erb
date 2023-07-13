@@ -1,14 +1,8 @@
 <%= form_with(model: blog) do |form| %>
   <% if blog.errors.any? %>
-    <div style="color: red">
-      <h2><%= pluralize(blog.errors.count, "error") %> prohibited this blog from being saved:</h2>
-
-      <ul>
-        <% blog.errors.each do |error| %>
-          <li><%= error.full_message %></li>
-        <% end %>
-      </ul>
-    </div>
+    <%= blog.errors.full_messages.each do |error| %>
+      <%= js add_gritter(error, title: "Igor Alves Arantes Portfolio", sticky: false) %>
+    <% end %>
   <% end %>
 
   <div class="form-group">
